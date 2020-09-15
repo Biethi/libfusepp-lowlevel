@@ -100,7 +100,7 @@ namespace FuseppLowLevel
   class FuseLowLevel : private boost::noncopyable
   {
   public:
-    /**
+  /**
    * @brief Constructor
    * @param argc
    * @param argv
