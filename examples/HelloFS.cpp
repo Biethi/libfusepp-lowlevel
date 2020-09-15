@@ -1,12 +1,22 @@
+/**
+ * 
+ * @file HelloFS.cpp
+ * @date 15.09.2020
+ * @author Biethi
+ * @copyright MIT License
+ *
+ */
+
 #include "HelloFS.h"
 
-#include <assert.h>
+#include <unistd.h>
 #include <errno.h>
 #include <fcntl.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
+
+#include <cassert>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
 
 // This needs to be included in this one cpp file to make sure FuseLowLevel.cpp is part of this Project and compiled.
 #include <FuseLowLevel-impl.h>
